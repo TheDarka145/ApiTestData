@@ -1,0 +1,362 @@
+{
+  "usuarios": [
+    {
+      "id": "1d10",
+      "username": "Pedro",
+      "rut": "111111111",
+      "email": "usuario1@mail.cl",
+      "password": "duoc1234",
+      "perfil": "https://www.alog.cl/wp-content/uploads/2021/10/Logo-Duoc-UC.png",
+      "carrera": "Informatica",
+      "isactive": true
+    },
+    {
+      "id": "f9e7",
+      "username": "usuario2",
+      "rut": "222222222",
+      "email": "usuario2@mail.cl",
+      "password": "maipu1234",
+      "perfil": "https://www.alog.cl/wp-content/uploads/2021/10/Logo-Duoc-UC.png",
+      "carrera": "Informatica",
+      "isactive": true
+    },
+    {
+      "id": "bd69",
+      "username": "Rodrigo Sepulveda",
+      "rut": "21305175k",
+      "email": "rodrigosepulveda231@gmail.com",
+      "password": "159753mo",
+      "perfil": "https://www.alog.cl/wp-content/uploads/2021/10/Logo-Duoc-UC.png",
+      "carrera": "Ingieneria en Informatica",
+      "isactive": true
+    },
+    {
+      "id": "5020",
+      "username": "Jose",
+      "rut": "73016401",
+      "email": "duocuc@gmail.com",
+      "password": "159753mo",
+      "carrera": "Construccion",
+      "isactive": true
+    },
+    {
+      "id": "bd21",
+      "username": "kimbita ",
+      "rut": "44444444",
+      "email": "slab898@gmail.com",
+      "password": "duoc1234",
+      "carrera": "Informatica",
+      "perfil": "https://www.alog.cl/wp-content/uploads/2021/10/Logo-Duoc-UC.png",
+      "isactive": true
+    }
+  ],
+  "docentes": [
+    {
+      "id": "49e0",
+      "username": "María González",
+      "rut": "99999999",
+      "email": "prueba@gmail.com",
+      "password": "duoc1234",
+      "asignatura": "Matematicas",
+      "perfil": "https://www.alog.cl/wp-content/uploads/2021/10/Logo-Duoc-UC.png",
+      "isactive": true
+    }
+  ],
+  "materias": [
+    {
+      "id": "1",
+      "nombre": "Matematicas",
+      "codigo": "MAT101",
+      "descripcion": "Estudio de conceptos numéricos, algebraicos y geométricos.",
+      "profesor": {
+        "nombre": "Juan Pérez",
+        "email": "juan.perez@ejemplo.com",
+        "telefono": "123456789"
+      },
+      "horarios": [
+        {
+          "dia": "Lunes",
+          "horaInicio": "09:00",
+          "horaFin": "10:30",
+          "fecha": "2023-10-23T09:00:00Z"
+        },
+        {
+          "dia": "Miércoles",
+          "horaInicio": "09:00",
+          "horaFin": "10:30",
+          "fecha": "2023-10-25T09:00:00Z"
+        }
+      ],
+      "aula": "A101",
+      "imagen": "https://cdn-icons-png.flaticon.com/512/1605/1605733.png"
+    },
+    {
+      "id": "2",
+      "nombre": "Historia",
+      "codigo": "HIS101",
+      "descripcion": "Análisis de eventos históricos y su impacto en la sociedad actual.",
+      "profesor": {
+        "nombre": "María Gómez",
+        "email": "maria.gomez@ejemplo.com",
+        "telefono": "987654321"
+      },
+      "horarios": [
+        {
+          "dia": "Martes",
+          "horaInicio": "10:30",
+          "horaFin": "12:00",
+          "fecha": "2023-10-24T10:30:00Z"
+        },
+        {
+          "dia": "Jueves",
+          "horaInicio": "10:30",
+          "horaFin": "12:00",
+          "fecha": "2023-10-26T10:30:00Z"
+        }
+      ],
+      "aula": "B202",
+      "imagen": "https://cdn-icons-png.flaticon.com/512/2234/2234697.png"
+    },
+    {
+      "id": "3",
+      "nombre": "Programación I",
+      "codigo": "PROG101",
+      "descripcion": "Introducción a la programación y a la resolución de problemas.",
+      "profesor": {
+        "nombre": "Laura Sánchez",
+        "email": "laura.sanchez@ejemplo.com",
+        "telefono": "123456788"
+      },
+      "horarios": [
+        {
+          "dia": "Lunes",
+          "horaInicio": "11:00",
+          "horaFin": "12:30",
+          "fecha": "2023-10-23T11:00:00Z"
+        },
+        {
+          "dia": "Miércoles",
+          "horaInicio": "11:00",
+          "horaFin": "12:30",
+          "fecha": "2023-10-25T11:00:00Z"
+        }
+      ],
+      "aula": "C303",
+      "imagen": "https://img.freepik.com/vector-gratis/subiendo-al-almacenamiento-nube-acceso-inalambrico-informacion-servicio-online-hosting-global-espacio-virtual-escritorio-disponible-seguro-ilustracion-metafora-concepto-aislado_335657-1150.jpg?t=st=1729131865~exp=1729135465~hmac=66c23fd3308d385915c00c14bc8d59e3b2903a8b9d54c4199f48a5fafcd2cb77&w=826"
+    },
+    {
+      "id": "4",
+      "nombre": "Estructuras de Datos",
+      "codigo": "ED101",
+      "descripcion": "Estudio de estructuras de datos y sus algoritmos.",
+      "profesor": {
+        "nombre": "Carlos Torres",
+        "email": "carlos.torres@ejemplo.com",
+        "telefono": "987654322"
+      },
+      "horarios": [
+        {
+          "dia": "Martes",
+          "horaInicio": "12:30",
+          "horaFin": "14:00",
+          "fecha": "2023-10-24T12:30:00Z"
+        },
+        {
+          "dia": "Jueves",
+          "horaInicio": "12:30",
+          "horaFin": "14:00",
+          "fecha": "2023-10-26T12:30:00Z"
+        }
+      ],
+      "aula": "D404",
+      "imagen": "https://w1.pngwing.com/pngs/499/103/png-transparent-blockchain-structure-hyperledger-technology-organization-business-data-distributed-ledger-media.png"
+    },
+    {
+      "id": "5",
+      "nombre": "Bases de Datos",
+      "codigo": "BD101",
+      "descripcion": "Introducción al diseño y uso de bases de datos.",
+      "profesor": {
+        "nombre": "Sofía López",
+        "email": "sofia.lopez@ejemplo.com",
+        "telefono": "654321987"
+      },
+      "horarios": [
+        {
+          "dia": "Viernes",
+          "horaInicio": "09:00",
+          "horaFin": "10:30",
+          "fecha": "2023-10-27T09:00:00Z"
+        }
+      ],
+      "aula": "E505",
+      "imagen": "https://img.freepik.com/vector-gratis/cuadrados-flotantes-base-datos_78370-6689.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Redes de Computadores",
+      "codigo": "RED101",
+      "descripcion": "Estudio de los fundamentos de redes de computadores.",
+      "profesor": {
+        "nombre": "Fernando Ruiz",
+        "email": "fernando.ruiz@ejemplo.com",
+        "telefono": "321654987"
+      },
+      "horarios": [
+        {
+          "dia": "Martes",
+          "horaInicio": "14:00",
+          "horaFin": "15:30",
+          "fecha": "2023-10-24T14:00:00Z"
+        },
+        {
+          "dia": "Jueves",
+          "horaInicio": "14:00",
+          "horaFin": "15:30",
+          "fecha": "2023-10-26T14:00:00Z"
+        }
+      ],
+      "aula": "F606",
+      "imagen": "https://img.genially.com/5bb51bd88058fd7dde758c38/10f42103-c810-4760-b81d-65f8fa73033a.png"
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": "ed4d",
+      "materia": "M02",
+      "fecha": "2024-10-22",
+      "profesor": "María González",
+      "descripcion": "Tenía un compromiso familiar",
+      "imagen": "https://megasantiago.com/wp-content/uploads/2019/03/CERTIDFICSDP.jpg",
+      "comentarios": [
+        {
+          "docente": "María González",
+          "comentario": "Justificación aceptada. Por favor, enviar con más antelación en el futuro.",
+          "fecha": "2024-10-22T10:00:00Z"
+        },
+        {
+          "docente": "Rodrigo Sepulveda",
+          "comentario": "bueno",
+          "fecha": "25-11-2024, 9:05:40 p. m."
+        },
+        {
+          "docente": "Rodrigo Sepulveda",
+          "comentario": "prueba2",
+          "fecha": "25-11-2024, 9:08:26 p. m."
+        },
+        {
+          "docente": "Rodrigo Sepulveda",
+          "comentario": "prueba3",
+          "fecha": "25-11-2024, 9:09:15 p. m."
+        }
+      ]
+    },
+    {
+      "id": "3964",
+      "materia": "M03",
+      "fecha": "2024-10-23",
+      "profesor": "Carlos López",
+      "descripcion": "Otro motivo personal.",
+      "imagen": "https://megasantiago.com/wp-content/uploads/2019/03/CERTIDFICSDP.jpg",
+      "comentarios": [
+        {
+          "docente": "Carlos López",
+          "comentario": "Motivo válido, pero asegúrate de justificar con mayor claridad.",
+          "fecha": "2024-10-23T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6584",
+      "materia": "MAT101",
+      "fecha": "2024-10-23T07:51:39.617Z",
+      "profesor": "Juan Pérez",
+      "descripcion": "Problemas de salud",
+      "imagen": "https://megasantiago.com/wp-content/uploads/2019/03/CERTIDFICSDP.jpg",
+      "comentarios": [
+        {
+          "docente": "Juan Pérez",
+          "comentario": "Se acepta la justificación, espero que te mejores pronto.",
+          "fecha": "2024-10-23T08:00:00Z"
+        }
+      ]
+    }
+  ],
+  "qr": [
+    {
+      "id": "8653",
+      "nombre": "Matemáticas",
+      "nombreprofesor": "Juan Pérez",
+      "rut": "21305175k",
+      "nombrealumno": "Pedro"
+    },
+    {
+      "id": "c1ea",
+      "nombre": "Matemáticas",
+      "nombreprofesor": "Juan Pérez",
+      "rut": "21305175k",
+      "nombrealumno": "Pedro"
+    },
+    {
+      "id": "f1a8",
+      "nombre": "Matematicas",
+      "fecha": "2024-11-25T22:35:13.897Z",
+      "nombreprofesor": "Juan Pérez",
+      "rut": "21305175k"
+    },
+    {
+      "id": "c43e",
+      "nombre": "Matematicas",
+      "fecha": "2024-11-25T23:34:01.486Z",
+      "nombreprofesor": "Juan Pérez",
+      "rut": "21305175k"
+    },
+    {
+      "id": "85d6",
+      "nombre": "Redes de Computadores",
+      "fecha": "2024-11-25T23:37:07.149Z",
+      "nombreprofesor": "Fernando Ruiz",
+      "rut": "99999999",
+      "nombrealumno": "María González"
+    },
+    {
+      "id": "ffae",
+      "nombre": "Historia",
+      "fecha": "2024-11-25T23:38:43.621Z",
+      "nombreprofesor": "María Gómez",
+      "rut": "21305175k",
+      "nombrealumno": "Rodrigo Sepulveda"
+    },
+    {
+      "id": "697a",
+      "nombre": "Bases de Datos",
+      "fecha": "2024-11-25T23:38:49.465Z",
+      "nombreprofesor": "Sofía López",
+      "rut": "21305175k",
+      "nombrealumno": "Rodrigo Sepulveda"
+    },
+    {
+      "id": "1d41",
+      "nombre": "Redes de Computadores",
+      "fecha": "2024-11-25T23:38:52.897Z",
+      "nombreprofesor": "Fernando Ruiz",
+      "rut": "21305175k",
+      "nombrealumno": "Rodrigo Sepulveda"
+    },
+    {
+      "id": "af8e",
+      "nombre": "Matematicas",
+      "fecha": "2024-11-25T23:47:19.080Z",
+      "nombreprofesor": "Juan Pérez",
+      "rut": "21305175k",
+      "nombrealumno": "Rodrigo Sepulveda"
+    }
+  ],
+  "qrDocente": [
+    {
+      "id": "a101",
+      "scanResult": "http://example.com/qr-simulado",
+      "fecha": "2024-11-28T08:01:17.706Z"
+    }
+  ]
+}
